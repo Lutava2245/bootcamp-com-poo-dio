@@ -1,4 +1,4 @@
-package model;
+package com.pessoal.model;
 
 import java.time.LocalDate;
 import java.util.ArrayDeque;

@@ -1,4 +1,4 @@
-package model;
+package com.pessoal.model;
 
 public class Conquista {
     private String nome;

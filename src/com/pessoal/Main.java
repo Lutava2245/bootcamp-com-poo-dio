@@ -1,10 +1,12 @@
-import java.util.Scanner;
-import java.util.Deque;
-import java.util.List;
+package com.pessoal;
+
+import com.pessoal.model.*;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-
-import model.*;
+import java.util.Deque;
+import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static int id = 0;
@@ -16,6 +18,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nome: ");
         String nome = sc.nextLine();
+        sc.close();
 
         Dev dev = new Dev(nome, id);
         desenvolvedores.add(dev);

@@ -1,4 +1,4 @@
-package model;
+package com.pessoal.model;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
